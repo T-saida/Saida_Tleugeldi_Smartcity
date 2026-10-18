@@ -57,9 +57,13 @@ Kosaraju's algorithm successfully decomposed the directed infrastructure graphs 
 
 ## 6. Performance Plots
 - **Execution Time vs. Number of Vertices**:
-  ![Time vs Vertices](results/plots/time_vs_vertices.png)
+  ![Time vs Vertices]
+  <img width="680" height="424" alt="image" src="https://github.com/user-attachments/assets/d8f5a004-7c03-4d4a-9186-1a68735af2e4" />
+
 - **Execution Time vs. Number of Edges**:
-  ![Time vs Edges](results/plots/time_vs_edges.png)
+  ![Time vs Edges]
+  <img width="569" height="228" alt="image" src="https://github.com/user-attachments/assets/36937578-a5e4-4a75-927b-428c016fe3ff" />
+
 
 ## 7. Comparison and Discussion
 - **Kruskal vs. Prim**: Both algorithms successfully computed the minimum-cost network. Prim's algorithm demonstrated slightly faster execution times on dense and medium graphs when implemented with a binary heap, whereas Kruskal's performance is heavily tied to the initial edge-sorting step (O(E log E)).
